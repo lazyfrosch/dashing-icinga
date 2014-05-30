@@ -3,12 +3,26 @@ Icinga dashboard for Dashing
 
 This is a example dashboard for Icinga based on the Dashing framework.
 
+![screenshot](screenshot.png =200px)
+
 References
 ----------
 
 Dashing Dashboard Software: http://shopify.github.io
 
 Dashing on GitHub: https://github.com/shopify/dashing
+
+Files to check
+--------------
+
+To understand how this dashboard works have a look at the following files:
+
+* config.ru
+* dashboards/icinga.erb
+* jobs/icinga.rb
+* widget/simplemon/\*
+* widget/table/\*
+* assets/stylesheets/icinga.scss
 
 Quick Start for this Dashboard
 ------------------------------
@@ -47,11 +61,12 @@ Now go to http://localhost:3030/
 License
 -------
 
-(c) 2014 NETWAYS GmbH <info@netways.de>
-(c) 2014 Markus Frosch <markus@lazyfrosch.de>
+- (c) 2014 NETWAYS GmbH <info@netways.de>
+- (c) 2014 Markus Frosch <markus@lazyfrosch.de>
 
 Other resources and basic templates:
- Copyright (c) 2014 Shopify and contributors
+
+- Copyright (c) 2014 Shopify and contributors
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
