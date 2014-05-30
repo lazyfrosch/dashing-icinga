@@ -3,7 +3,7 @@ Icinga dashboard for Dashing
 
 This is a example dashboard for Icinga based on the Dashing framework.
 
-![screenshot](screenshot.png =200px)
+<a href="screenshot.png"><img src="screenshot.png" style="width: 300px;" alt="Screenshot"/></a>
 
 References
 ----------
