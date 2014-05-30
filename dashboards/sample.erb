@@ -13,13 +13,29 @@ $(function() {
     </li>
 
     <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
-      <div data-id="twitter_mentions" data-view="Comments" style="background-color:#00abf0;" data-moreinfo="Tweets tagged with #icinga"></div>
+      <div data-id="twitter_mentions" data-view="Comments" style="background-color:#00abf0;" data-moreinfo="Tweets with icinga"></div>
       <i class="icon-twitter icon-background"></i>
     </li>
 
     <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
       <div data-view="Clock"></div>
       <i class="icon-time icon-background"></i>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="icinga-hosts" data-view="Simplemon" data-title="Icinga hosts"></div>
+    </li>
+
+    <li data-row="2" data-col="2" data-sizex="1" data-sizey="2">
+      <div data-id="icinga-hosts-latest" data-view="Table" data-title="Icinga host problems" class="icinga-latest-problems"></div>
+    </li>
+
+    <li data-row="2" data-col="3" data-sizex="1" data-sizey="2">
+      <div data-id="icinga-services-latest" data-view="Table" data-title="Icinga service problems" class="icinga-latest-problems"></div>
+    </li>
+
+    <li data-row="3" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="icinga-services" data-view="Simplemon" data-title="Icinga services"></div>
     </li>
 
 </div>
